@@ -5,6 +5,6 @@ app.get('/', function(req, res){
   res.send("HELLO WORLD");
 });
 
-http.listen(80, function(){
+http.listen(8080, function(){
   console.log('listening on *:8080');
 });
